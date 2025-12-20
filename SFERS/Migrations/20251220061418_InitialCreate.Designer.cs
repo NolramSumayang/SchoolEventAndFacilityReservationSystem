@@ -11,8 +11,8 @@ using SFERS.Data;
 namespace SFERS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251220054211_Initial")]
-    partial class Initial
+    [Migration("20251220061418_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
